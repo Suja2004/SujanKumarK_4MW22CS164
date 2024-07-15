@@ -1,0 +1,10 @@
+const express = require('express')
+const app = express()
+const port = 5000
+
+app.use('/myapi',(req,res)=>{
+    res.send("Welcome to my server");
+})
+app.listen(port,()=>{
+    console.log("server listening to 5000")
+})
