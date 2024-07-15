@@ -82,12 +82,34 @@
 //     console.log(i)
 // }
 
-const obj ={
-    name:"sujan",
-    age:19,
-    section:'c'
-}
+// const obj ={
+//     name:"sujan",
+//     age:19,
+//     section:'c'
+// }
 
-for(let i in obj){
-    console.log(`key: ${i} \t value: ${obj[i]}`)
-}
+// for(let i in obj){
+//     console.log(`key: ${i} \t value: ${obj[i]}`)
+// }
+
+// let a=1;
+
+// while(a!=10){
+//     console.log("value",a++)
+// }
+
+// do{
+//     console.log("value",a--);
+// }while(a>0);
+
+let a=[1,2,3,4,5]
+
+a.map((value,index)=>{
+    console.log(`${index}`,`${value}`)
+})
+
+a=['s','u','j','a','n']
+a.forEach((value,index)=>{
+    console.log(`${index}`,`${value}`)
+})
+
