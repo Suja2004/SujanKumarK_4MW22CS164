@@ -102,14 +102,60 @@
 //     console.log("value",a--);
 // }while(a>0);
 
-let a=[1,2,3,4,5]
+// let a=[1,2,3,4,5]
 
-a.map((value,index)=>{
-    console.log(`${index}`,`${value}`)
-})
+// a.map((value,index)=>{
+//     console.log(`${index}`,`${value}`)
+// })
 
-a=['s','u','j','a','n']
-a.forEach((value,index)=>{
-    console.log(`${index}`,`${value}`)
-})
+// a=['s','u','j','a','n']
+// a.forEach((value,index)=>{
+//     console.log(`${index}`,`${value}`)
+// })
+
+// function even(a){
+//     let b=[];
+//     // let j=0;
+// for(let i=0;i<a.length;i++){
+//     if(a[i]%2==0){
+//         b.push(a[i])
+//         // b[j]=a[i];
+//         // j++;
+//     }
+//     console.log(i+1)
+
+// }
+// return b;
+// }
+// let a=[1,2,3,4,5,6,7,8,9,10]
+// let b=even(a);
+// console.log(b)
+
+//promises 1.pending 2.resolve 3.reject
+// callback hell
+// let p = new Promise((resolve,reject)=>{
+//     resolve("yes")
+//     reject("no")
+// })
+
+// let p = new Promise((resolve,reject)=>{
+//     let a=10
+//     if(a>=18){
+//     resolve("vote")
+//     }
+//     else{
+//     reject("no vote")
+//     }
+// })
+
+// p.then((m)=>{
+// console.log(m)
+// })
+// p.catch((e)=>{
+// console.log(e)
+// })
+
+// setTimeout(() => {
+//     console.log("hello")
+// }, 3000);
 
