@@ -159,3 +159,15 @@
 //     console.log("hello")
 // }, 3000);
 
+// setInterval(()=>{
+//     console.log("hello")
+// },5000)
+
+// fetch('https://api.restful-api.dev/objects')
+// .then(re=>{return re.json()})
+// .then(res=>console.log(res))
+// .catch((e)=>{
+// console.log(e);
+// })
+
+
